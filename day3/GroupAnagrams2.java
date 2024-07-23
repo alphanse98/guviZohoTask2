@@ -8,7 +8,7 @@ import java.util.Map;
 
 public class GroupAnagrams2 {
 
-//     Input: strs = ["eat","tea","tan","ate","nat","bat"]
+// Input: strs = ["eat","tea","tan","ate","nat","bat"]
 // Output: [["bat"],["nat","tan"],["ate","eat","tea"]]
      public List<List<String>> groupAnagrams(String[] strs) {
         Map<String, List<String>> map = new HashMap<>();
